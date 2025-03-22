@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Yusuf - Computer Engineer Portfolio" />
+    <link rel="stylesheet" href="styel.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>Byab</title>
+  </head>
+  <body>
+    <div class="container"></div>
+    <header>
+      <svg width="120" height="40" viewBox="0 0 120 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <text x="10" y="30" fill="#00ADB5" font-size="32" font-family="Poppins">Byqb</text>
+        <rect x="2" y="2" width="116" height="36" rx="4" stroke="#00ADB5" stroke-width="2"/>
+      </svg>
+      <nav class="navigation">
+        <ul>
+          <li><a href="#aboutMe">About Me</a></li>
+          <li><a href="#MyWorks">My Works</a></li>
+          <li><a href="#contactMe">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <hr />
+
+    <section class="hero">
+      <img class="arrow" src="assets/svg/arrow.svg" alt="arrow" />
+      <div class="heroSub">
+        <h1 class="name">I'm Yusuf</h1>
+        <h1 class="title">Computer Engineer</h1>
+        <div class="heroBtns">
+          <a class="hireMe" href="#contactMe">Hire me</a>
+          <a class="cv" href="assets/.pdf" download
+            >Download CV
+            <img src="assets/svg/download.svg" alt="download button"
+          /></a>
+          <h5 style="color: #00ADB5;">cv Dosent Work </h5>
+        </div>
+      </div>
+      <img src="assets/svg/Hero.svg" alt="hero image" class="heroImg" />
+    </section>
+
+    <section class="aboutMe" id="aboutMe">
+      <img
+        src="assets/svg/AboutMe.svg"
+        alt="aboutMe image"
+        class="aboutMeImg"
+      />
+      <div class="textContainer">
+        <div class="textTitle">
+          <h1 class="aboutName">About</h1>
+          <h1 class="aboutTitle">me</h1>
+          <img src="assets/svg/lightbulb.svg" alt="ligh" class="light" />
+        </div>
+        <p class="aboutMePar">
+          Hey, I'm Yusuf, a Computer Engineer who loves turning complex ideas into simple, sleek solutions. Currently diving into mobile app development to level up my skills. I enjoy building cool stuff, experimenting with new tech, and making things look and feel great.
+        </p>
+      </div>
+    </section>
+
+    <section class="works" id="MyWorks">
+      <div class="worksContainer">
+        <div class="projectTitle">
+          <h1 class="aboutName">My recent</h1>
+          <h1 class="aboutTitle">works</h1>
+        </div>
+        <ul>
+          <li>
+            <a href=""
+              ><img src="assets/imgs/landingPage.png" alt="landing Page"
+            /></a>
+          </li>
+          <li>
+            <a href=""><img src="assets/imgs/webApp.png" alt="Wep App" /></a>
+          </li>
+          <li>
+            <a href=""><img src="assets/imgs/app.png" alt="App" /></a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="contactContainer" id="contactMe">
+      <div class="contactTitle">
+        <h1 class="aboutName">Contact</h1>
+        <h1 class="aboutTitle">me</h1>
+      </div>
+      <div class="contact">
+        <div class="emailAndPhone">
+          <img src="assets/svg/Email.svg" alt="email logo" />
+          <a href="mailto:byqb@gmail.com"
+            ><h3>byqb@gmail.com</h3></a
+          >
+        </div>
+        <div class="emailAndPhone">
+          <img src="assets/svg/phone.svg" alt="phone logo" />
+          <h3>+0123456789</h3>
+        </div>
+      </div>
+      <div class="socialMedia">
+        <a
+          href="https://www.linkedin.com/in/byqb/"
+          target="_blank"
+          ><img src="assets/svg/linkedin.svg" alt="my linkedin account"
+        /></a>
+        <a href="https://github.com/Byqb" target="_blank"
+          ><img src="assets/svg/github.svg" alt=" my github account"
+        /></a>
+        <a href="https://x.com/'byqb'" target="_blank"
+          ><img src="assets/svg/twitter.svg" alt="my x account"
+        /></a>
+        <a href="https://youtu.be/Byqb" target="_blank"
+          ><img src="assets/svg/youtube.svg" alt="my youtube channel"
+        /></a>
+      </div>
+    </section>
+    <hr />
+    <footer>
+      <p>Built by MK.</p>
+    </footer>
+    <div id="particles"></div>
+    <script>
+      // Create particle effect
+      const particlesContainer = document.getElementById('particles');
+      for (let i = 0; i < 50; i++) {
+        const particle = document.createElement('div');
+        particle.className = 'particle';
+        particlesContainer.appendChild(particle);
+      }
+    </script>
+  </body>
+</html>
